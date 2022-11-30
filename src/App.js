@@ -1,5 +1,5 @@
 import heroImage from './assets/ezgif-5-774f11576e.jpg'
-import logo from './assets/4_2_27.jpg'
+import logo from './assets/gymshark-logo-3F1E7A14A4-seeklogo.com.png'
 import './App.css';
 
 function App() {
