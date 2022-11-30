@@ -1,38 +1,102 @@
-.App {
-  text-align: center;
+.headers {
+  position: fixed;
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.headers-block {
+  height: 112px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* NAV UTILS STYLES */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.utils-nav {
+  background-color: rgb(235, 235, 235);
+  height: 35px;
   display: flex;
-  flex-direction: column;
+  justify-content: flex-end;
   align-items: center;
+}
+
+.util-link {
+  color: rgb(68, 68, 68);
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  padding: 10px;
+  border-right: 0.05rem solid rgb(210, 210, 210);
+  box-sizing: border-box;
+  height: 35px;
+  font-size: .9rem;
+  font-weight: 400;
 }
 
-.App-link {
-  color: #61dafb;
+.utils-nav:first-child {
+  border-left: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.utils-nav:last-child {
+  border-right: none;
+}
+
+/* MAIN NAV STYLES */
+
+.main-nav {
+  padding: 0px 60px;
+  background-color: white;
+  height: 76px;
+  display: flex;
+  align-items: center;
+  border-bottom: 0.05rem solid rgb(210, 210, 210);
+}
+
+.main-nav-link {
+  flex: 1;
+  display: flex;
+}
+
+.nav-logo-container {
+  justify-content: flex-start;
+  height: 60px;
+}
+
+.nav-categories-container {
+  justify-content: space-around;
+}
+
+.nav-icons-container {
+  justify-content: flex-end;
+}
+
+.nav-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 70px;
+}
+
+/* MAIN BODY DOCUMENT */
+
+.offers-scroller {
+  user-select: none;
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+  font-weight: lighter;
+  height: 50px;
+  font-size: .8rem;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-body {
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+
 }
