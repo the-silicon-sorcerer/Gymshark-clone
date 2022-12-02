@@ -1,0 +1,97 @@
+.collection-item-card {
+    width: 341px;
+}
+
+.card-figure {
+    height: 407px;
+    position: relative;
+    margin-bottom: 8px;
+}
+
+.card-figure a {
+    height: 100%;
+}
+
+.product-card-image {
+    height: 100%;
+    object-fit: cover;
+}
+
+.quickbuy-container {
+    position: absolute;
+    left: 8px;
+    right: 8px;
+    bottom: 8px;
+    background-color: rgba(255, 255, 255, .8);
+    backdrop-filter: blur(10px);
+    width: 300px;
+    height: 120px;
+    padding: 15px 13px;
+    border-radius: 5px;
+    transition: opacity .25s;
+}
+
+.quickbuy-header {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.quickbuy-header p {
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: .9rem;
+    margin: 0px;
+    text-transform: uppercase;
+    margin-left: 5px
+}
+
+.quickbuy-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+
+.quickbuy-button {
+    border-radius: 2px;
+    width: 43px;
+    height: 41px;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 0.5rem #00000026;
+    background-color: white;
+}
+
+.card-caption {
+    padding: 4px;
+}
+
+.card-main-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+
+}
+
+.card-product-name {
+    margin: 0px;
+    font-size: 14x;
+    font-weight: 200;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    color: #444;
+    font-size: 16px;
+}
+
+.card-product-price {
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: auto;
+}
+
+.card-product-color {
+    color: #6e6e6e;
+    font-size: 14px;
+}

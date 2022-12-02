@@ -1,0 +1,11 @@
+.offers-scroller {
+    user-select: none;
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    height: 50px;
+    font-size: .8rem;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
