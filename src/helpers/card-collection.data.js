@@ -1,5 +1,5 @@
 const cardCollection = {
-    cards: [
+    cards1: [
         {
             collectionTitle: "GYMSHARK GIFTS",
             productImage: 'card-product-image.webp',
@@ -11,14 +11,14 @@ const cardCollection = {
             collectionTitle: "GYMSHARK GIFTS",
             productImage: 'card-product-image4.webp',
             productName: 'Elevate Longline Sports Bra',
-            productColor: 'Cement Brown Spray Dye',
+            productColor: 'Brown Spray Dye',
             productPrice: '$74 USD'
         },
         {
             collectionTitle: "GYMSHARK GIFTS",
             productImage: 'card-product-image2.webp',
             productName: 'Studio Joggers',
-            productColor: 'STUDIO JOGGERS',
+            productColor: 'Onyx Gray',
             productPrice: '$34 USD'
         },
         {
@@ -26,6 +26,36 @@ const cardCollection = {
             productImage: 'card-product-image3.webp',
             productName: 'React Stringer',
             productColor: 'Aloe Green',
+            productPrice: '$24 USD'
+        }
+    ],
+    cards2: [
+        {
+            collectionTitle: "Mens Essentials",
+            productImage: 'card-image.webp',
+            productName: 'Legacy Stringer',
+            productColor: 'Lime Marl',
+            productPrice: '$54 USD'
+        },
+        {
+            collectionTitle: "Mens Essentials",
+            productImage: 'card-image4.webp',
+            productName: 'Elevate Long Sleeve',
+            productColor: 'Black Faded',
+            productPrice: '$74 USD'
+        },
+        {
+            collectionTitle: "Mens Essentials",
+            productImage: 'card-image3.webp',
+            productName: 'Studio Hoodie',
+            productColor: 'Onyx Green',
+            productPrice: '$34 USD'
+        },
+        {
+            collectionTitle: "Mens Essentials",
+            productImage: 'card-image2.webp',
+            productName: 'Legacy T-Shirt',
+            productColor: 'Midnight Black',
             productPrice: '$24 USD'
         }
     ]

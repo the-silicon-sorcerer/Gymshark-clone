@@ -9,19 +9,19 @@ const heroData = {
             "secondLinkHidden": false
         },
         {
-            "heroImage": "",
-            "heroTitle": "",
-            "heroCopy": "",
-            "heroLinkCopy": "",
-            "heroLink": "",
+            "heroImage": "hero-image2.webp",
+            "heroTitle": `WORKOUT WILD `,
+            "heroCopy": "New Adapt Animal Seamless",
+            "heroLinkCopy": ['SHOP NOW', null],
+            "heroLink": "#",
             "secondLinkHidden": true
         },
         {
-            "heroImage": "",
-            "heroTitle": "",
-            "heroCopy": "",
-            "heroLinkCopy": "",
-            "heroLink": "",
+            "heroImage": "hero-image3.webp",
+            "heroTitle": "THE ESSENTIALS",
+            "heroCopy": "From training to rest day",
+            "heroLinkCopy": ['Shop Mens Essentials', null],
+            "heroLink": "#",
             "secondLinkHidden": true
         }
     ]

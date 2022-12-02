@@ -1,5 +1,6 @@
 .collection-container {
     padding: 0px 60px;
+    margin-bottom: 30px;
 }
 
 .collection-topic-container {
@@ -10,6 +11,7 @@
 
 .collection-title {
     margin: 0px;
+    text-transform: uppercase;
 }
 
 .collection-link {

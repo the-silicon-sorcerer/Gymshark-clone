@@ -66,7 +66,7 @@
 }
 
 .card-caption {
-    padding: 4px;
+    padding: 5px;
 }
 
 .card-main-info {
@@ -86,12 +86,12 @@
 }
 
 .card-product-price {
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 600;
     margin-left: auto;
 }
 
 .card-product-color {
     color: #6e6e6e;
-    font-size: 14px;
+    font-size: 13px;
 }

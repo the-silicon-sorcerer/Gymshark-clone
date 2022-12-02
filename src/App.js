@@ -15,7 +15,10 @@ function App() {
       <OfferScroller />
       <div className="main-body">
         <HeroImage data={heroData.heroList[0]} />
-        <CardCollection data={cardCollection.cards} />
+        <CardCollection data={cardCollection.cards1} />
+        <HeroImage data={heroData.heroList[1]} />
+        <CardCollection data={cardCollection.cards2} />
+        <HeroImage data={heroData.heroList[2]} />
       </div>
     </div>
   );
