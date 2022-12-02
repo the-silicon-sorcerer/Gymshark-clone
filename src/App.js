@@ -1,4 +1,6 @@
 import heroImage from './assets/hero.image.webp'
+import { ReactComponent as AddIcon } from './assets/icon-add.svg'
+import productCardImage from './assets/card-product-image.webp'
 import logo from './assets/gymshark-logo-3F1E7A14A4-seeklogo.com.png'
 import './App.css';
 
@@ -48,17 +50,46 @@ function App() {
             </div>
           </div>
         </div>
-        <div className='card-container'>
+        <div className='collection-container'>
           <div className='collection-topic-container'>
-            <div className='collection-title'>
-              <h2>GYMSHARK GIFTS</h2>
+            <div className='collection-title-container'>
+              <h2 className='collection-title'>GYMSHARK GIFTS</h2>
             </div>
             <div className='collection-link'>
-              <a href='#'>view all</a>
+              <a href='#'>View All</a>
             </div>
           </div>
           <div className='cards-container'>
-
+            <div className='collection-item-card'>
+              <div className='card-figure'>
+                <a href="#" className='card-product-link'>
+                  <img className='product-card-image' src={productCardImage} />
+                </a>
+                <div className='quickbuy-container'>
+                  <div className='quickbuy-header'>
+                    <AddIcon />
+                    <p>quick add</p>
+                  </div>
+                  <div className='quickbuy-buttons'>
+                    <div className='quickbuy-button'>XS</div>
+                    <div className='quickbuy-button'>S</div>
+                    <div className='quickbuy-button'>M</div>
+                    <div className='quickbuy-button'>L</div>
+                    <div className='quickbuy-button'>XL</div>
+                    <div className='quickbuy-button'>XXL</div>
+                  </div>
+                </div>
+              </div>
+              <div className='card-caption'>
+                <a>
+                  <div className='card-main-info'>
+                    <h3 className='card-product-name'>Vital Seamless 2.0 Leggings</h3>
+                    <div className='card-product-price'>$54 USD</div>
+                  </div>
+                  <div className='card-product-color'>black marl</div>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
