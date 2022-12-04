@@ -1,7 +1,7 @@
 import './header.styles.css'
 import { Fragment } from 'react';
 
-const Header = ({ heroData }) => {
+const Header = () => {
     return (
         <Fragment>
             <div className='headers'>
